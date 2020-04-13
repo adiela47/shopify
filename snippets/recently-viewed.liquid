@@ -1,0 +1,14 @@
+{%- if section.settings.product_viewed_products != '' -%}
+<div class="single_product_summary_viewed">
+  <div class="row">
+    <div class="xlarge-9 xlarge-centered columns">
+      <div class="products-carousel">
+        <h2 class="carousel-title">{{ 'products.general.viewed_products' | t | escape }}</h2>
+        <div id="recently_wrap" class="viewed products products-grid owl-carousel owl-theme" data-per-view="{{ section.settings.product_viewed_products_view }}" data-limit="{{section.settings.product_viewed_products_limit}}" data-handle="{{- product.handle -}}" data-id="{{product.id}}">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{%- endif -%}

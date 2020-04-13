@@ -1,0 +1,6 @@
+{%- section 'cart-template' -%}
+ {% assign pageurl = content_for_header| split:'"pageurl":"' | last | split:'"' | first %}
+{% assign Shopdomain = pageurl | split : "\/" | first %}
+<script id='editcartmlvedascript' mlveda='{{Shopdomain}}' src= 'https://sheridan-buckle.myshopify.com/apps/EditCart/editcartmlvedaproxy.js'></script>
+{{ 'mlvedaeditcart.css' | asset_url | stylesheet_tag }}
+{% include 'mlveda-optionselection' %}

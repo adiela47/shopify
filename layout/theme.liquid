@@ -1,0 +1,277 @@
+<!doctype html>
+<!--[if IE 9]> <html class="ie9 no-js" lang="{{ shop.locale }}"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="{{ shop.locale }}"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' /><![endif]-->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="{{ settings.color_button }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+  
+  {%- if settings.favicon_image -%}
+    <link rel="shortcut icon" href="{{ settings.favicon_image | img_url: '32x32' }}" type="image/png" />
+  {%- endif -%}
+  {%- if settings.favicon_image_retina -%}
+    <link rel="apple-touch-icon-precomposed" href="{{ settings.favicon_image_retina | img_url: '152x152' }}" type="image/png" />
+  {%- endif -%}
+
+  {%- capture seo_title -%}
+    {{- page_title -}}
+    {% if current_tags %}
+      {%- assign meta_tags = current_tags | join: ', ' %} &nbsp;&ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
+    {%- endif -%}
+    {%- if current_page != 1 -%}
+      &nbsp;&ndash; {{ 'general.meta.page' | t: page: current_page }}
+    {%- endif -%}
+    {%- unless page_title contains shop.name -%}
+      &nbsp;&ndash; {{ shop.name }}
+    {%- endunless -%}
+  {%- endcapture -%}
+  <title>{{ seo_title }}</title>
+
+  {%- if page_description -%}
+    <meta name="description" content="{{ page_description | escape }}" />
+  {%- endif -%}
+
+  {%- include 'social-meta-tags' -%}
+  {%- include 'shopify-head' -%}
+  
+  {{ content_for_header }}
+{% comment %}
+  <script>
+  window.Shoppad = window.Shoppad || {},
+  window.Shoppad.apps = window.Shoppad.apps || {},
+  window.Shoppad.apps.infiniteoptions = {
+    ready: function() {
+
+      function callback() {
+        $('#infiniteoptions-container .datepicker').datepicker({
+          
+         changeMonth: true,
+        changeYear: true,
+        showButtonPanel: true,
+        dateFormat: 'MM yy',
+        onClose: function(dateText, inst) { 
+            var month = $("#ui-datepicker-div .ui-datepicker-month :selected").val();
+            var year = $("#ui-datepicker-div .ui-datepicker-year :selected").val();
+            $(this).datepicker('setDate', new Date(year, month, 1));
+        }
+         
+          altField: '#infiniteoptions-container .datepicker input[type=text]',
+          onSelect: function() {
+            $('#infiniteoptions-container .ui-datepicker-inline').hide();
+          }
+        });
+
+        $('#infiniteoptions-container .datepicker input[type=text]').change(function(){
+          $('#infiniteoptions-container .datepicker').datepicker('setDate', $(this).val());
+        });
+
+        $('#infiniteoptions-container .datepicker').datepicker( "setDate", '' );
+
+        $('#infiniteoptions-container .datepicker input[type=text]').attr('readonly','true');
+
+        $('#infiniteoptions-container .ui-datepicker-inline').hide();
+
+        $('#infiniteoptions-container .datepicker input[type=text]').on('click touchstart', function (e) {
+              $('#infiniteoptions-container .ui-datepicker-inline').show();
+        });
+      }
+
+      $(document).on('mouseup touchstart', function(e) {
+        var isDatePickerInput = $('#infiniteoptions-container .datepicker input').is(e.target);
+        var isDatePicker = $('#infiniteoptions-container .ui-datepicker-inline').is(e.target);
+        var isChildOfDatePicker = $('#infiniteoptions-container .ui-datepicker-inline').has(e.target).length;
+
+        // If the target of the click isn't the text input, the date picker, or a descendant of the date picker
+        if (!isDatePickerInput && !isDatePicker && !isChildOfDatePicker) {
+          $('#infiniteoptions-container .ui-datepicker-inline').hide();
+        }
+      });
+
+      if (window.jQuery.fn.datepicker) {
+        callback();
+      } else {
+        var script = document.createElement('script');
+        script.src = '//code.jquery.com/ui/1.10.2/jquery-ui.js';
+        script.onload = callback;
+        document.getElementsByTagName('head')[0].appendChild(script);
+      }
+    }
+  };
+</script>
+ 
+ <script>
+  window.Shoppad = window.Shoppad || {},
+  window.Shoppad.apps = window.Shoppad.apps || {},
+  window.Shoppad.apps.infiniteoptions = {
+    ready: function() {
+
+      function callback() {
+        $('#infiniteoptions-container .datepicker').datepicker({
+          inline: true,  altFormat: "yy",
+          
+          altField: '#infiniteoptions-container .datepicker input[type=text]',
+          onSelect: function() {
+            $('#infiniteoptions-container .ui-datepicker-inline').hide();
+          }
+        });
+
+        $('#infiniteoptions-container .datepicker input[type=text]').change(function(){
+          $('#infiniteoptions-container .datepicker').datepicker('setDate', $(this).val());
+        });
+
+        $('#infiniteoptions-container .datepicker').datepicker( "setDate", '' );
+
+        $('#infiniteoptions-container .datepicker input[type=text]').attr('readonly','true');
+
+        $('#infiniteoptions-container .ui-datepicker-inline').hide();
+
+        $('#infiniteoptions-container .datepicker input[type=text]').on('click touchstart', function () {
+              $('#infiniteoptions-container .ui-datepicker-inline').show();
+        });
+      }
+
+      $(document).on('mouseup touchstart', function(e) {
+        // If the target of the click isn't the container nor a descendant of the container.
+        if (!$('#infiniteoptions-container .ui-datepicker-inline').is(e.target) && $('#infiniteoptions-container .ui-datepicker-inline').has(e.target).length === 0) {
+          $('#infiniteoptions-container .ui-datepicker-inline').hide();
+        }
+      });
+
+      if (window.jQuery.fn.datepicker) {
+        callback();
+      } else {
+        var script = document.createElement('script');
+        script.src = '//code.jquery.com/ui/1.10.2/jquery-ui.js';
+        script.onload = callback;
+        document.getElementsByTagName('head')[0].appendChild(script);
+      }
+    }
+  };
+</script>
+ {% endcomment %} 
+
+ </head>
+
+{%- assign form_style = settings.form_style | default: 'default' -%}
+<body class="template-{{ template | split: '.' | first }}{%- if settings.product_mobile_variant == '1' and template contains 'product' or template contains 'cart' -%}{{" has-variant-mobile"}}{%- endif -%}{%- if template contains 'cart' and cart.item_count <= 0 -%}{{" no-cart-item-body"}}{%- endif-%}" data-form-style="{{ form_style }}">
+  {%- include "age-check" -%}
+  {%- if settings.page_loader == '1' -%}
+  <div id="eva-loader-wrapper">
+    <div class="eva-loader-section">
+      <div class="eva-loader-{{ settings.page_loader_spinner }}"></div>
+    </div>
+  </div>
+  {%- endif -%}
+  {%- if settings.product_mobile_variant == '1' and template contains 'product' or template contains 'cart' -%}
+  {%- section "product-variants-mobile" -%}
+  {%- endif -%}
+  {%- section 'header' -%}
+  {%- section 'mega-menu' -%}
+  
+  <div class="offcanvas_container">
+    <div class="offcanvas_main_content">
+      <div class="page-wrapper">
+        <main id="main">
+          {{ content_for_layout }}
+        </main>
+        
+        {%- section 'footer' -%}
+      </div>
+    </div>
+    {%- include 'offcanvas' -%}
+  </div>
+  <div class="cd-quick-view"></div>
+  {%- include 'photoswipe' -%}
+  {%- include 'newsletter-popup' -%}
+  {%- include 'notify-products' -%}
+  {%- include 'cookie-popup' -%}
+  {%- include 'facebook-chat' -%}
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+     var unavailableDates = ["1-3-2020", "2-3-2020", "3-3-2020"];
+
+    function unavailable(date) {
+        dmy = date.getDate() + "-" + (date.getMonth() + 1) + "-" + date.getFullYear();
+        if ($.inArray(dmy, unavailableDates) == -1) {
+            return [true, ""];
+        } else {
+            return [false, "", "Unavailable"];
+        }
+    }
+
+    
+        $("#datepicker-2").datepicker({
+            dateFormat: 'dd MM yy',
+           // beforeShowDay: unavailable,
+          minDate: 0
+        });
+
+   
+//     $( "#datepicker-2" ).datepicker();
+      </script>
+  <script>
+  $('.Save-Update').click(function(event){
+event.preventDefault();
+var Dline = Number($(this).attr('data-line'));
+var Dlogo = $(this).prevAll('.inputLogo').val();
+var DTopLettering = $(this).prevAll('.inputTop.Lettering').val();
+var DBottomLettering = $(this).prevAll('.inputBottom-Lettering').val();
+var DYear = $(this).prevAll('.inputYear').val();
+var DFigurine = $(this).prevAll('.inputFigurine').val();
+var DStonecolor = $(this).prevAll('.inputStone-color').val();
+var DInstructions = $(this).prevAll('.inputSpecial.Instructions').val();
+
+jQuery.post('/cart/change.js', { 
+        line: Dline,
+      properties: {
+        'Logo': Dlogo,
+        'Top Lettering': DTopLettering,
+        'Bottom-Lettering': DBottomLettering,
+        'Year': DYear,
+        'Figurine': DFigurine,
+        'Stone-color': DStonecolor,
+        'Special Instructions':DInstructions 
+      }
+});
+    
+ $(this).parents('.lineitems_update_form_outer').siblings('.cart_meta_outer').show();
+ $(this).parents('.lineitems_update_form_outer').hide();
+    
+ $(this).parents('.lineitems_update_form_outer').siblings('.cart_meta_outer').find('.cart_meta_inner.top-lettering span').text(DTopLettering);
+ $(this).parents('.lineitems_update_form_outer').siblings('.cart_meta_outer').find('.cart_meta_inner.bottom-lettering span').text(DBottomLettering);
+ $(this).parents('.lineitems_update_form_outer').siblings('.cart_meta_outer').find('.cart_meta_inner.year span').text(DYear);
+ $(this).parents('.lineitems_update_form_outer').siblings('.cart_meta_outer').find('.cart_meta_inner.figurine span').text(DFigurine);
+ $(this).parents('.lineitems_update_form_outer').siblings('.cart_meta_outer').find('.cart_meta_inner.stone-color span').text(DStonecolor);
+ $(this).parents('.lineitems_update_form_outer').siblings('.cart_meta_outer').find('.cart_meta_inner.special-instructions span').text(DInstructions);
+    
+    
+
+
+
+
+
+
+});
+    
+ $('.update_meta').click(function(event){
+   event.preventDefault();
+$(this).parent('.cart_meta_outer').siblings('.lineitems_update_form_outer').show();
+ $(this).parents('.cart_meta_outer').hide();
+
+});
+
+$('button.cancle-Update').click(function(event){
+  event.preventDefault();
+$(this).parents('.lineitems_update_form_outer').siblings('.cart_meta_outer').show();
+ $(this).parents('.lineitems_update_form_outer').hide();
+});
+
+
+  </script>
+  
+ </body>
+</html>

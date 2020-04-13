@@ -1,0 +1,16 @@
+{%- layout none -%}
+{%- assign _terms = search.terms | split: "_sp_" -%}
+{%- assign handles = _terms[0] | split: "," -%}
+{%- assign _product_id = _terms[1] | plus: 0 -%}
+{%- for r_handle in handles -%}
+{%- assign _handle = r_handle | strip -%}
+{%- if _handle != blank -%}
+{%- assign my_product =  all_products[_handle] -%}
+{%- if my_product.available -%}
+{%- assign _my_product_id = my_product.id | plus: 0 -%}
+{%- if my_product.id > 0 and _product_id != _my_product_id -%}
+{%- include 'product-item' -%}
+{%- endif -%}
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}

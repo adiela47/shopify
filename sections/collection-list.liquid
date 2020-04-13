@@ -1,0 +1,130 @@
+<div id="primary" class="content-area">
+  {%- include 'page-header' -%}
+  <div id="content" class="site-content">
+    <article class="page">
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="entry-content">
+            {%- case section.settings.columns -%}
+              {%- when 6 -%}
+                {%- assign collections_per_row = 6 -%}
+                {%- assign collections_per_row_xl = 6 -%}
+                {%- assign collections_per_row_l = 6 -%}
+                {%- assign collections_per_row_m = 3 -%}
+              {%- when 5 -%}
+                {%- assign collections_per_row = 5 -%}
+                {%- assign collections_per_row_xl = 5 -%}
+                {%- assign collections_per_row_l = 5 -%}
+                {%- assign collections_per_row_m = 3 -%}
+              {%- when 4 -%}
+                {%- assign collections_per_row = 4 -%}
+                {%- assign collections_per_row_xl = 4 -%}
+                {%- assign collections_per_row_l = 4 -%}
+                {%- assign collections_per_row_m = 3 -%}
+              {%- when 3 -%}
+                {%- assign collections_per_row = 3 -%}
+                {%- assign collections_per_row_xl = 3 -%}
+                {%- assign collections_per_row_l = 3 -%}
+                {%- assign collections_per_row_m = 2 -%}
+              {%- else -%}
+                {%- assign collections_per_row = 2 -%}
+                {%- assign collections_per_row_xl = 2 -%}
+                {%- assign collections_per_row_l = 2 -%}
+                {%- assign collections_per_row_m = 2 -%}
+            {%- endcase -%}
+            {% case section.settings.sort %}
+            {% when 'products_high' or 'products_low' %}
+            {%- assign list_collections = collections | sort: 'all_products_count' -%}
+            {% when 'date' or 'date_reversed' %}
+            {%- assign list_collections = collections | sort: 'published_at' -%}
+            {% else %}
+            {%- assign list_collections = collections -%}
+            {% endcase %}
+            {% if section.settings.sort == 'products_low' or section.settings.sort == 'date' or section.settings.sort == 'alphabetical' %}
+            <div class="row product-category-list {{ section.settings.shop_collections_hover }} small-up-1 medium-up-{{ collections_per_row_m }} large-up-{{ collections_per_row_l }} xlarge-up-{{ collections_per_row_xl }} xxlarge-up-{{ collections_per_row }} columns-{{ collections_per_row }}">
+              {%- for my_collection in list_collections -%}
+                {%- unless my_collection.handle == 'all' -%}
+                  {%- include 'collection-item' -%}
+                {%- endunless -%}
+              {%- endfor -%}
+            </div>
+            {% else %}
+            <div class="row product-category-list {{ section.settings.shop_collections_hover }} small-up-1 medium-up-{{ collections_per_row_m }} large-up-{{ collections_per_row_l }} xlarge-up-{{ collections_per_row_xl }} xxlarge-up-{{ collections_per_row }} columns-{{ collections_per_row }}">
+              {%- for my_collection in list_collections reversed -%}
+                {%- unless my_collection.handle == 'all' -%}
+                  {%- include 'collection-item' -%}
+                {%- endunless -%}
+              {%- endfor -%}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Collections View",
+    "settings": [
+      {
+        "type": "range",
+        "id": "columns",
+        "min": 2,
+        "max": 5,
+        "step": 1,
+        "label": "Collections per Row",
+        "default": 4
+      },
+      {
+        "type": "select",
+        "id": "hover",
+        "label": "Collections View on Hover",
+        "options": [
+          {
+            "value": "perspective_hover",
+            "label": "Hover Perspective"
+          },
+          {
+            "value": "zoom_hover",
+            "label": "Hover Zoom"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "sort",
+        "label": "Sort collections by:",
+        "info": "Sorting only applies when 'All' is selected",
+        "default": "alphabetical",
+        "options": [
+          {
+            "value": "products_high",
+            "label": "Product count, high to low"
+          },
+          {
+            "value": "products_low",
+            "label": "Product count, low to high"
+          },
+          {
+            "value": "alphabetical",
+            "label": "Alphabetically, A-Z"
+          },
+          {
+            "value": "alphabetical_reversed",
+            "label": "Alphabetically, Z-A"
+          },
+          {
+            "value": "date",
+            "label": "Date, old to new"
+          },
+          {
+            "value": "date_reversed",
+            "label": "Date, new to old"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

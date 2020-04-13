@@ -1,0 +1,1401 @@
+{
+  "current": {
+    "general_max_width": "1440",
+    "general_gmap_api": "",
+    "favicon_image": "",
+    "favicon_image_retina": "",
+    "general_font": "Dosis",
+    "general_font_bk": "Helvetica, Arial, sans-serif",
+    "general_font_weight": 300,
+    "general_font_spacing": 0.5,
+    "heading_font": "Dosis",
+    "heading_font_bk": "Helvetica, Arial, sans-serif",
+    "heading_font_weight": 600,
+    "heading_font_spacing": 1,
+    "header_font": "Dosis",
+    "header_font_bk": "Helvetica, Arial, sans-serif",
+    "header_font_weight": 600,
+    "header_font_spacing": 0,
+    "header_font_transform": "inherit",
+    "nav_font": "Dosis",
+    "nav_font_bk": "Helvetica, Arial, sans-serif",
+    "nav_font_weight": 600,
+    "nav_font_spacing": 1,
+    "nav_font_transform": "uppercase",
+    "nav_font_size": 14,
+    "special_font": "Montserrat",
+    "special_font_bk": "Helvetica, Arial, sans-serif",
+    "header_color": "#000000",
+    "main_color": "#333333",
+    "form_style": "default",
+    "background_color": "#ffffff",
+    "page_loader": "",
+    "page_loader_spinner": "1",
+    "page_loader_color": "#333333",
+    "page_loader_bg": "#ffffff",
+    "header_padding": "40",
+    "main_logo_height": "93",
+    "logo_color": "#333333",
+    "social_twitter_link": "https:\/\/twitter.com\/roartheme",
+    "social_facebook_link": "https:\/\/facebook.com\/roartheme",
+    "social_googleplus_link": "",
+    "social_pinterest_link": "https:\/\/pinterest.com\/roartheme",
+    "social_instagram_link": "http:\/\/instagram.com\/roartheme",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "catalog_mode": "",
+    "product_addtocart_ajax": "1",
+    "shop_header_height": "450",
+    "shop_header_style": "",
+    "shop_header_bg": "shopify:\/\/shop_images\/iStock-165744941-min_2c7e038b-b546-447e-8790-e27aaf36a6b4.jpg",
+    "image_layout": "1",
+    "shop_second_image": "1",
+    "shop_quick_view": "1",
+    "shop_collection": "1",
+    "shop_review": "",
+    "shop_addtocart": "1",
+    "shop_sale_percentages": "1",
+    "product_size_chart": "",
+    "product_wishlist": "",
+    "product_swatch_color": true,
+    "product_swatch_color_advanced": false,
+    "product_swatch_size": true,
+    "product_mobile_variant": "1",
+    "dynamic_checkout": "1",
+    "product_additional_content": "",
+    "compare_enabled": "1",
+    "compare_image": true,
+    "compare_title": true,
+    "compare_price": true,
+    "compare_brand": true,
+    "compare_availability": true,
+    "compare_rating": true,
+    "compare_summary": true,
+    "compare_options": "",
+    "compare_limit": "4",
+    "cookie_popup": true,
+    "cookie_message": "This website uses cookies to ensure you get the best experience on our website",
+    "cookie_button": "Got it!",
+    "popup_mailchimp_show": false,
+    "popup_mailchimp_sb": false,
+    "popup_mailchimp_action": "\/\/roartheme.us3.list-manage.com\/subscribe\/post?u=b0a129d3ef58da6fad5da1f62&amp;id=5903baced9",
+    "popup_mailchimp_period": "1",
+    "popup_mailchimp_delay": "1",
+    "popup_mailchimp_img": "",
+    "notify_product": false,
+    "notify_product_collection": "",
+    "notify_product_limit": 10,
+    "notify_product_title": "Someone liked:",
+    "notify_product_delay": 10,
+    "notify_product_display": 5,
+    "fbchat_enable": false,
+    "fbchat_title": "How can we help you?",
+    "fbchat_page": "https:\/\/www.facebook.com\/roartheme",
+    "fbchat_timeline": true,
+    "fbchat_events": true,
+    "fbchat_position": "right",
+    "age_verification": "",
+    "enter_date_of_birth": "1",
+    "age_check": 18,
+    "heading": "Adults only (18+)",
+    "description": "This website contains adult material and is only suitable for those 18 years or older. Click Enter only if you are at least 18 years of age.",
+    "age_check_background": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#1990c6",
+    "checkout_button_color": "#1990c6",
+    "checkout_error_color": "#ff6d6d",
+    "general_nav_social": "",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "header_style": "2",
+          "main_logo": "",
+          "main_logo_retina": "",
+          "main_logo_dark": "",
+          "main_logo_dark_retina": "",
+          "sticky_logo": "",
+          "sticky_logo_retina": "",
+          "header_menu": "",
+          "menu_trigger": "1",
+          "header_contact": "",
+          "header_contact_icon": "",
+          "header_contact_subtitle": "Need Help?",
+          "header_contact_title": "1-800-123-45-67",
+          "header_search": "1",
+          "header_search_mobile": "1",
+          "header_search_featured": "",
+          "header_search_limit": "3",
+          "header_currency": "",
+          "currency_format": "money_format",
+          "supported_currencies": "USD EUR CAD",
+          "default_currency": "USD",
+          "header_social": "",
+          "header_social_content": "[social icons=\"twitter,facebook,pinterest\"]",
+          "header_sticky": "1",
+          "header_sticky_scroll": "1",
+          "header_sticky_mobile": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "footer_area": "6",
+          "footer_1_align": "left-align",
+          "footer_1_content": "<b>COLLECTION<\/b><br><br>\n<a href=\"https:\/\/sheridan-buckle.myshopify.com\/pages\/buckles\">BUCKLES<\/a><br>\n<a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/crowns\">CROWNS<\/a><br>\n<a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/trophy-cups\">TROPHY CUPS<\/a><br>\n<a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/trophy-knifes\">TROPHY KNIFES<\/a><br>",
+          "footer_2_align": "left-align",
+          "footer_2_content": "<b>POLICY<\/b> <br><br>\n<a href=\"https:\/\/sheridan-buckle.myshopify.com\/policies\/privacy-policy\">PRIVACY POLICY<\/a><br>\n<a href=\"https:\/\/sheridan-buckle.myshopify.com\/policies\/refund-policy\">REFUND POLICY<\/a><br>\n<a href=\"https:\/\/sheridan-buckle.myshopify.com\/policies\/terms-of-service\">TERMS OF SERVICE<\/a>",
+          "footer_3_align": "left-align",
+          "footer_3_content": "<b>QUICK LINKS<\/b> <br><br>\n<a href=\"https:\/\/sheridan-buckle.myshopify.com\/cart\">CART<\/a><br>\n<a href=\"https:\/\/sheridan-buckle.myshopify.com\/account\/login\">LOG IN<\/a><br>\n<a href=\"https:\/\/sheridan-buckle.myshopify.com\/account\/register\">REGISTER<\/a>",
+          "footer_4_align": "right-align",
+          "footer_4_content": "[mailchimp action=\"\/\/roartheme.us3.list-manage.com\/subscribe\/post?u=b0a129d3ef58da6fad5da1f62&amp;id=5903baced9\"]\n[image src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1801\/2127\/files\/payment.png?12325825214884585162\" alt=\"payment\"]",
+          "footer_5_align": "left-align",
+          "footer_5_content": "",
+          "footer_instagram": "1",
+          "footer_instagram_username": "roartheme",
+          "footer_instagram_token": "1212301594.1677ed0.4d1a7e036d9945bd9a964afdc8136141",
+          "footer_instagram_limit": 8,
+          "footer_social": "1",
+          "footer_social_content": "[social icons=\"twitter,facebook,pinterest,instagram\"]",
+          "footer_copyright": "Copy Right © <a href=\"https:\/\/sheridan-buckle.myshopify.com\/\"> Sheridan Buckle 2020 <\/a> - All Rights Reserved"
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_notes": "1"
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "blocks": {
+          "1489239262801": {
+            "type": "posts",
+            "settings": {
+              "heading": "Recent Posts",
+              "blog": "news",
+              "limit": 5
+            }
+          },
+          "1489239280912": {
+            "type": "tags",
+            "settings": {
+              "heading": "Tags"
+            }
+          },
+          "1489239288207": {
+            "type": "text",
+            "settings": {
+              "heading": "Talk about your brand",
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            }
+          },
+          "1501766456941": {
+            "type": "image",
+            "settings": {
+              "heading": "",
+              "image": "",
+              "link": "shopify:\/\/collections\/all"
+            }
+          }
+        },
+        "block_order": [
+          "1489239262801",
+          "1489239280912",
+          "1489239288207",
+          "1501766456941"
+        ],
+        "settings": {
+          "blog_layout": "1",
+          "blog_design": "classic",
+          "blog_date": "1"
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "blocks": {
+          "1489239474051": {
+            "type": "text",
+            "settings": {
+              "heading": "Talk about your brand",
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            }
+          },
+          "1489239479268": {
+            "type": "posts",
+            "settings": {
+              "heading": "Featured Posts",
+              "blog": "news",
+              "limit": 3
+            }
+          },
+          "1489239488060": {
+            "type": "tags",
+            "settings": {
+              "heading": "Tags"
+            }
+          }
+        },
+        "block_order": [
+          "1489239474051",
+          "1489239479268",
+          "1489239488060"
+        ],
+        "settings": {
+          "article_layout": "",
+          "blog_author": "1",
+          "blog_date": "1",
+          "blog_sharing": "1"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "blocks": {
+          "1501560100738": {
+            "type": "image",
+            "settings": {
+              "heading": "",
+              "image": "",
+              "link": ""
+            }
+          },
+          "1489168599827": {
+            "type": "collections",
+            "settings": {
+              "heading": ""
+            }
+          },
+          "1501560794301": {
+            "type": "filter",
+            "settings": {
+              "heading": "Filter by Color",
+              "values": "Avocado, \nBeige,\nBrown Rust,\nEden,\nFuscous Gray,\nJava,\nJet Stream,\nLimed Ash,\nLimed Spruce,\nMako,\nMischka,\nObservatory,\nOuter Space,\nPadua,\nPutty,\nQuicksand,\nSiam,\nTeak,\nTeal,\nTower Gray,\nBlack",
+              "type": "background",
+              "multi_choice": true
+            }
+          },
+          "1501570935111": {
+            "type": "filter",
+            "settings": {
+              "heading": "Filter by Size",
+              "values": "S,\nM,\nL,\nXL",
+              "type": "normal",
+              "multi_choice": false
+            }
+          },
+          "1501571156407": {
+            "type": "filter",
+            "settings": {
+              "heading": "Filter by Price",
+              "values": "$100 - $200,\nAbove $200,\nUnder $100",
+              "type": "checkbox",
+              "multi_choice": false
+            }
+          },
+          "1501570593752": {
+            "type": "filter",
+            "settings": {
+              "heading": "Filter by Brand",
+              "values": "adidas,\nBenetton,\nBodycon,\nBuffalo",
+              "type": "dropdown",
+              "multi_choice": false
+            }
+          },
+          "1503327523402": {
+            "type": "filter",
+            "settings": {
+              "heading": "Filter by Type",
+              "values": "Asymmetric,\nBalance,\nBandeau,\nBlanket,\nboots,\nCrop Top,\ndresses",
+              "type": "normal",
+              "multi_choice": false
+            }
+          },
+          "1503327573319": {
+            "type": "filter",
+            "settings": {
+              "heading": "Filter by Material",
+              "values": "Cotton,\nFaux,\nFlannel,\nFleece,\nkhaki,\nLeather,\nRibbed,\nShearling",
+              "type": "normal",
+              "multi_choice": false
+            }
+          },
+          "1489168609373": {
+            "type": "products",
+            "settings": {
+              "heading": "Featured Products",
+              "collection": "",
+              "limit": 3
+            }
+          }
+        },
+        "block_order": [
+          "1501560100738",
+          "1489168599827",
+          "1501560794301",
+          "1501570935111",
+          "1501571156407",
+          "1501570593752",
+          "1503327523402",
+          "1503327573319",
+          "1489168609373"
+        ],
+        "settings": {
+          "shop_sidebar": "",
+          "shop_pagination": "2",
+          "shop_products_row": 4,
+          "shop_rows_page": 2,
+          "shop_description": "",
+          "shop_image": "1"
+        }
+      },
+      "search-template": {
+        "type": "search-template",
+        "settings": {
+          "shop_pagination": "2",
+          "shop_products_row": 4,
+          "shop_rows_page": 2,
+          "shop_image": "1"
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "settings": {
+          "map_address": "80 Spadina Ave, Toronto",
+          "api_key": "AIzaSyCSwjppfvWyMU0NIeXg0m4OTCdN5HZGyf0",
+          "map_our_address": "1",
+          "map_our_address_label": "OUR ADDRESS",
+          "map_our_address_text": "<h5>New York<\/h5>\n<p>9154918660<br> 295 Hallas rd Anthony , New Mexico , United States, 88021<br>\n  <a href=\"sheridanbuckle@gmail.com\">sheridanbuckle@gmail.com<\/a>\n<\/p>",
+          "map_opening_hours": "1",
+          "map_opening_hours_label": "OPENING HOURS",
+          "map_opening_hours_text": "<p>\r\n  <strong>Monday to Friday<\/strong>: 10am to 6pm<br>\r\n  <strong>Saturday<\/strong>: 10am to 4pm<br>\r\n  <strong>Sunday<\/strong>: 12am t0 4pm\r\n<\/p>"
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "settings": {
+          "columns": 4,
+          "hover": "perspective_hover",
+          "sort": "alphabetical"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_design": "default",
+          "product_gallery_zoom": "1",
+          "product_lightbox": "1",
+          "product_shortdesc": "",
+          "product_sharing": "1",
+          "product_message": "",
+          "product_tab_title_1": "Tab Title 1",
+          "product_tab_content_1": "",
+          "product_tab_title_2": "Tab Title 2",
+          "product_tab_content_2": "",
+          "product_upsells": "",
+          "product_upsells_limit": 8,
+          "product_related_products": "1",
+          "product_related_products_limit": 6,
+          "product_related_products_view": 5,
+          "product_viewed_products": "",
+          "product_viewed_products_limit": 12,
+          "product_viewed_products_view": 4
+        }
+      },
+      "page-about-template": {
+        "type": "page-about-template",
+        "blocks": {
+          "1491476595649": {
+            "type": "introduction",
+            "settings": {
+              "image": "",
+              "image_height": "500",
+              "image_position": "left",
+              "background": "#f3f3f3",
+              "heading": "01",
+              "heading_color": "#ffffff",
+              "subheading": "WHO WE ARE",
+              "subheading_color": "#000000",
+              "content": "<p style=\"font-size: 20px;\">Pour-over art party fashion axe, coloring book poutine bitters tacos yr craft beer vexillologist chartreuse activated charcoal hot chicken food truck. La croix cronut kogi, kale chips master cleanse sriracha 8-bit messenger bag fam. +1 art party quinoa waistcoat, ugh tilde pickled scenester keytar vice subway tile affogato craft beer. Brooklyn etsy jianbing hammock man bun fanny pack, marfa lo-fi locavore tilde trust fund la croix.<\/p>\r\n<p style=\"font-size: 20px;\">Schlitz gastropub chicharrones beard enamel pin raw denim activated charcoal swag, health goth humblebrag edison bulb. Pickled etsy crucifix lumbersexual waistcoat selfies brooklyn, tilde hashtag poke aesthetic tofu intelligentsia coloring book. Copper mug chambray waistcoat, freegan gastropub edison bulb VHS slow-carb sartorial.<\/p>\r\n<div class=\"empty_space\" style=\"height:30px;\"><span class=\"empty_space_inner\"><\/span><\/div>\r\n<div class=\"vc_single_image-wrapper   vc_box_border_grey\"><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/1801\/2127\/files\/about-sign_175x.png\" alt=\"about-sign\" title=\"about-sign\"><\/div>",
+              "content_color": "#000000"
+            }
+          },
+          "1491481487444": {
+            "type": "team",
+            "settings": {
+              "heading": "MEET OUR TEAM",
+              "subheading": "THE RIGHT PEOPLE FOR YOUR PROJECT"
+            }
+          },
+          "1491476673171": {
+            "type": "introduction",
+            "settings": {
+              "image": "",
+              "image_height": "500",
+              "image_position": "right",
+              "background": "#f3f3f3",
+              "heading": "02",
+              "heading_color": "#ffffff",
+              "subheading": "WHAT WE DO",
+              "subheading_color": "#000000",
+              "content": "<p style=\"font-size: 20px;\">Keytar letterpress tacos, retro affogato bicycle rights tattooed chicharrones poke typewriter butcher. Post-ironic distillery pitchfork, organic try-hard venmo lo-fi copper mug tbh raw denim. Humblebrag locavore cornhole williamsburg mlkshk mumblecore photo booth, knausgaard fixie tilde deep v echo park whatever seitan. Jianbing snackwave waistcoat hell of, marfa prism slow-carb mustache gastropub poke you probably haven’t heard of them fanny pack hot chicken brunch 3 wolf moon.<\/p>\r\n<p style=\"font-size: 20px;\">Gochujang tote bag marfa pop-up, cliche small batch photo booth slow-carb farm-to-table crucifix put a bird on it fam quinoa chicharrones brooklyn. Typewriter pop-up gastropub cray, disrupt small batch seitan.<\/p>",
+              "content_color": "#000000"
+            }
+          },
+          "1491481508365": {
+            "type": "member",
+            "settings": {
+              "image": "",
+              "heading": "EVA SMITH",
+              "subheading": "CREATIVE DIRECTOR"
+            }
+          },
+          "1491481557966": {
+            "type": "member",
+            "settings": {
+              "image": "",
+              "heading": "KEVIN JONES",
+              "subheading": "OFFICE MANAGER"
+            }
+          },
+          "1491481584137": {
+            "type": "member",
+            "settings": {
+              "image": "",
+              "heading": "JOHN DOW",
+              "subheading": "SALES MANAGER"
+            }
+          }
+        },
+        "block_order": [
+          "1491476595649",
+          "1491481487444",
+          "1491476673171",
+          "1491481508365",
+          "1491481557966",
+          "1491481584137"
+        ],
+        "settings": {}
+      },
+      "page-faqs-template": {
+        "type": "page-faqs-template",
+        "blocks": {
+          "1491488453218": {
+            "type": "text",
+            "settings": {
+              "content": "<p style=\"font-size: 21px;\"><span style=\"color: #555555;\">The <em>Toggles<\/em> element shows multiple products sharing the same category. For example, you can set up a list of products only and it can be inserted into any page or post.<\/span><\/p>"
+            }
+          },
+          "1491488500980": {
+            "type": "faq",
+            "settings": {
+              "question": "What is your international returns policy?",
+              "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in accumsan dui. Donec imperdiet, nisl non pharetra convallis, nunc sapien laoreet massa, ac elementum arcu neque vitae enim. Praesent convallis leo est, scelerisque tincidunt magna ultricies eu. Ut placerat est a eros faucibus feugiat. Nullam a urna sit amet sem porttitor malesuada a quis nibh. In hac habitasse platea dictumst. Donec sit amet auctor leo. Sed venenatis posuere risus quis dictum. Vivamus ullamcorper orci vitae eros tincidunt, a aliquet lacus dapibus. Sed consectetur, est vel tincidunt imperdiet, justo est dignissim lorem, nec tincidunt lacus lacus ac risus. Cras pretium enim nec vestibulum aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;<\/p>\r\n<p>Nam vitae viverra ex. Sed dictum mollis ultricies. Cras lobortis viverra dapibus. Suspendisse ornare metus arcu, sit amet imperdiet sem lacinia eget. Maecenas vitae porttitor quam. Cras lacinia sollicitudin felis, sit amet laoreet leo ornare vestibulum. Ut fermentum pulvinar lorem, vel consequat leo euismod ac. Cras pulvinar sit amet lorem nec egestas. Vivamus gravida eu felis in elementum. In nec pretium neque. Mauris dictum risus ut elit tristique dictum. Etiam tempor leo libero, ac commodo diam bibendum ut. Integer non dapibus diam. Morbi feugiat, mauris ut placerat faucibus, velit urna fermentum eros, venenatis finibus velit lorem vitae nulla.<\/p>"
+            }
+          },
+          "1491490190139": {
+            "type": "faq",
+            "settings": {
+              "question": "How can I find your international delivery policy?",
+              "answer": "<p>Praesent vitae venenatis dolor. Aenean egestas lacinia risus, id mattis massa interdum fringilla. Sed dictum sem at enim suscipit, eget aliquet tortor finibus. Integer pharetra, velit ut posuere interdum, orci ante feugiat mi, sit amet pulvinar dui mi ut leo. Quisque eu scelerisque risus. Aliquam sollicitudin, velit sed bibendum lobortis, ipsum odio laoreet leo, at consectetur tortor justo semper lectus. Nulla non eros eget urna pulvinar scelerisque in vel lacus. Donec suscipit dolor vitae mauris sagittis condimentum.<\/p>\r\n<p>Duis feugiat vehicula metus, accumsan efficitur ante bibendum a. Fusce ultrices justo at leo consectetur faucibus a vitae ante. Etiam eget rutrum quam. Proin pulvinar libero tempor, porta nunc eget, rhoncus nulla. In ac mauris non risus aliquam euismod ac et erat. Vestibulum vitae faucibus ante.<\/p>"
+            }
+          },
+          "1491490244300": {
+            "type": "faq",
+            "settings": {
+              "question": "What should I do if my order hasn't been delivered yet?",
+              "answer": "<p>Nam vitae viverra ex. Sed dictum mollis ultricies. Cras lobortis viverra dapibus. Suspendisse ornare metus arcu, sit amet imperdiet sem lacinia eget. Maecenas vitae porttitor quam. Cras lacinia sollicitudin felis, sit amet laoreet leo ornare vestibulum. Ut fermentum pulvinar lorem, vel consequat leo euismod ac. Cras pulvinar sit amet lorem nec egestas. Vivamus gravida eu felis in elementum. In nec pretium neque. Mauris dictum risus ut elit tristique dictum. Etiam tempor leo libero, ac commodo diam bibendum ut. Integer non dapibus diam. Morbi feugiat, mauris ut placerat faucibus, velit urna fermentum eros, venenatis finibus velit lorem vitae nulla.<\/p>"
+            }
+          },
+          "1491490256236": {
+            "type": "faq",
+            "settings": {
+              "question": "How can I get a new returns note?",
+              "answer": "<p>Cras lacinia sollicitudin felis, sit amet laoreet leo ornare vestibulum. Ut fermentum pulvinar lorem, vel consequat leo euismod ac. Cras pulvinar sit amet lorem nec egestas. Vivamus gravida eu felis in elementum. In nec pretium neque. Mauris dictum risus ut elit tristique dictum.<\/p>\r\n<p>Etiam tempor leo libero, ac commodo diam bibendum ut. Integer non dapibus diam. Morbi feugiat, mauris ut placerat faucibus, velit urna fermentum eros, venenatis finibus velit lorem vitae nulla.<\/p>"
+            }
+          },
+          "1491490277072": {
+            "type": "faq",
+            "settings": {
+              "question": "I'm an international customer, have you received my returned items?",
+              "answer": "<p>Praesent vitae venenatis dolor. Aenean egestas lacinia risus, id mattis massa interdum fringilla. Sed dictum sem at enim suscipit, eget aliquet tortor finibus. Integer pharetra, velit ut posuere interdum, orci ante feugiat mi, sit amet pulvinar dui mi ut leo. Quisque eu scelerisque risus. Aliquam sollicitudin, velit sed bibendum lobortis, ipsum odio laoreet leo, at consectetur tortor justo semper lectus. Nulla non eros eget urna pulvinar scelerisque in vel lacus. Donec suscipit dolor vitae mauris sagittis condimentum. Duis feugiat vehicula metus, accumsan efficitur ante bibendum a. Fusce ultrices justo at leo consectetur faucibus a vitae ante. Etiam eget rutrum quam. Proin pulvinar libero tempor, porta nunc eget, rhoncus nulla. In ac mauris non risus aliquam euismod ac et erat. Vestibulum vitae faucibus ante.<\/p>\r\n<p>Etiam facilisis, libero ac venenatis dignissim, magna nisl viverra lectus, sit amet iaculis dolor lorem eget urna. Cras ac gravida nunc, nec eleifend sapien. Suspendisse potenti. Vestibulum tincidunt purus quis sollicitudin iaculis. Quisque ligula diam, eleifend eget vulputate quis, dictum nec justo. Maecenas vel gravida neque. Fusce scelerisque velit et leo imperdiet, sit amet elementum arcu congue. Sed non ullamcorper nibh, eget lacinia justo.<\/p>"
+            }
+          },
+          "1491490334493": {
+            "type": "line",
+            "settings": {}
+          },
+          "1491490339111": {
+            "type": "heading",
+            "settings": {
+              "content": "PRODUCT DELIVERY"
+            }
+          },
+          "1491490354191": {
+            "type": "text",
+            "settings": {
+              "content": "<p>Sed consectetur, est vel tincidunt imperdiet, justo est dignissim lorem, nec tincidunt lacus lacus ac risus. Cras pretium enim nec vestibulum aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae<\/p>"
+            }
+          },
+          "1491490358287": {
+            "type": "faq",
+            "settings": {
+              "question": "How can I get a new returns note?",
+              "answer": "<p>Cras lacinia sollicitudin felis, sit amet laoreet leo ornare vestibulum. Ut fermentum pulvinar lorem, vel consequat leo euismod ac. Cras pulvinar sit amet lorem nec egestas. Vivamus gravida eu felis in elementum. In nec pretium neque. Mauris dictum risus ut elit tristique dictum.<\/p>\r\n<p>Etiam tempor leo libero, ac commodo diam bibendum ut. Integer non dapibus diam. Morbi feugiat, mauris ut placerat faucibus, velit urna fermentum eros, venenatis finibus velit lorem vitae nulla.<\/p>"
+            }
+          },
+          "1491490380056": {
+            "type": "faq",
+            "settings": {
+              "question": "How can I find your international delivery policy?",
+              "answer": "<p>Praesent vitae venenatis dolor. Aenean egestas lacinia risus, id mattis massa interdum fringilla. Sed dictum sem at enim suscipit, eget aliquet tortor finibus. Integer pharetra, velit ut posuere interdum, orci ante feugiat mi, sit amet pulvinar dui mi ut leo. Quisque eu scelerisque risus. Aliquam sollicitudin, velit sed bibendum lobortis, ipsum odio laoreet leo, at consectetur tortor justo semper lectus. Nulla non eros eget urna pulvinar scelerisque in vel lacus. Donec suscipit dolor vitae mauris sagittis condimentum.<\/p><p>Duis feugiat vehicula metus, accumsan efficitur ante bibendum a. Fusce ultrices justo at leo consectetur faucibus a vitae ante. Etiam eget rutrum quam. Proin pulvinar libero tempor, porta nunc eget, rhoncus nulla. In ac mauris non risus aliquam euismod ac et erat. Vestibulum vitae faucibus ante.<\/p>"
+            }
+          },
+          "1491490397433": {
+            "type": "faq",
+            "settings": {
+              "question": "What is your international returns policy?",
+              "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in accumsan dui. Donec imperdiet, nisl non pharetra convallis, nunc sapien laoreet massa, ac elementum arcu neque vitae enim. Praesent convallis leo est, scelerisque tincidunt magna ultricies eu. Ut placerat est a eros faucibus feugiat. Nullam a urna sit amet sem porttitor malesuada a quis nibh. In hac habitasse platea dictumst. Donec sit amet auctor leo. Sed venenatis posuere risus quis dictum. Vivamus ullamcorper orci vitae eros tincidunt, a aliquet lacus dapibus. Sed consectetur, est vel tincidunt imperdiet, justo est dignissim lorem, nec tincidunt lacus lacus ac risus. Cras pretium enim nec vestibulum aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;<\/p><p>Nam vitae viverra ex. Sed dictum mollis ultricies. Cras lobortis viverra dapibus. Suspendisse ornare metus arcu, sit amet imperdiet sem lacinia eget. Maecenas vitae porttitor quam. Cras lacinia sollicitudin felis, sit amet laoreet leo ornare vestibulum. Ut fermentum pulvinar lorem, vel consequat leo euismod ac. Cras pulvinar sit amet lorem nec egestas. Vivamus gravida eu felis in elementum. In nec pretium neque. Mauris dictum risus ut elit tristique dictum. Etiam tempor leo libero, ac commodo diam bibendum ut. Integer non dapibus diam. Morbi feugiat, mauris ut placerat faucibus, velit urna fermentum eros, venenatis finibus velit lorem vitae nulla.<\/p>"
+            }
+          },
+          "1491490414731": {
+            "type": "faq",
+            "settings": {
+              "question": "What should I do if my order hasn't been delivered yet?",
+              "answer": "<p>Nam vitae viverra ex. Sed dictum mollis ultricies. Cras lobortis viverra dapibus. Suspendisse ornare metus arcu, sit amet imperdiet sem lacinia eget. Maecenas vitae porttitor quam. Cras lacinia sollicitudin felis, sit amet laoreet leo ornare vestibulum. Ut fermentum pulvinar lorem, vel consequat leo euismod ac. Cras pulvinar sit amet lorem nec egestas. Vivamus gravida eu felis in elementum. In nec pretium neque. Mauris dictum risus ut elit tristique dictum. Etiam tempor leo libero, ac commodo diam bibendum ut. Integer non dapibus diam. Morbi feugiat, mauris ut placerat faucibus, velit urna fermentum eros, venenatis finibus velit lorem vitae nulla.<\/p>"
+            }
+          },
+          "1491490427401": {
+            "type": "faq",
+            "settings": {
+              "question": "I'm an international customer, have you received my returned items?",
+              "answer": "<p>Praesent vitae venenatis dolor. Aenean egestas lacinia risus, id mattis massa interdum fringilla. Sed dictum sem at enim suscipit, eget aliquet tortor finibus. Integer pharetra, velit ut posuere interdum, orci ante feugiat mi, sit amet pulvinar dui mi ut leo. Quisque eu scelerisque risus. Aliquam sollicitudin, velit sed bibendum lobortis, ipsum odio laoreet leo, at consectetur tortor justo semper lectus. Nulla non eros eget urna pulvinar scelerisque in vel lacus. Donec suscipit dolor vitae mauris sagittis condimentum. Duis feugiat vehicula metus, accumsan efficitur ante bibendum a. Fusce ultrices justo at leo consectetur faucibus a vitae ante. Etiam eget rutrum quam. Proin pulvinar libero tempor, porta nunc eget, rhoncus nulla. In ac mauris non risus aliquam euismod ac et erat. Vestibulum vitae faucibus ante.<\/p><p>Etiam facilisis, libero ac venenatis dignissim, magna nisl viverra lectus, sit amet iaculis dolor lorem eget urna. Cras ac gravida nunc, nec eleifend sapien. Suspendisse potenti. Vestibulum tincidunt purus quis sollicitudin iaculis. Quisque ligula diam, eleifend eget vulputate quis, dictum nec justo. Maecenas vel gravida neque. Fusce scelerisque velit et leo imperdiet, sit amet elementum arcu congue. Sed non ullamcorper nibh, eget lacinia justo.<\/p>"
+            }
+          },
+          "1491490465347": {
+            "type": "line",
+            "settings": {}
+          },
+          "1491490468211": {
+            "type": "heading",
+            "settings": {
+              "content": "SHIPPING, RETURNS AND EXCHANGES"
+            }
+          },
+          "1491490471821": {
+            "type": "text",
+            "settings": {
+              "content": "<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Vivamus ullamcorper orci vitae eros tincidunt, a aliquet lacus dapibus. Sed consectetur, est vel tincidunt imperdiet, justo est dignissim lorem, nec tincidunt lacus lacus ac risus. Cras pretium enim nec vestibulum aliquam.<\/p>"
+            }
+          },
+          "1491490479347": {
+            "type": "faq",
+            "settings": {
+              "question": "I'm an international customer, have you received my returned items?",
+              "answer": "<p>Praesent vitae venenatis dolor. Aenean egestas lacinia risus, id mattis massa interdum fringilla. Sed dictum sem at enim suscipit, eget aliquet tortor finibus. Integer pharetra, velit ut posuere interdum, orci ante feugiat mi, sit amet pulvinar dui mi ut leo. Quisque eu scelerisque risus. Aliquam sollicitudin, velit sed bibendum lobortis, ipsum odio laoreet leo, at consectetur tortor justo semper lectus. Nulla non eros eget urna pulvinar scelerisque in vel lacus. Donec suscipit dolor vitae mauris sagittis condimentum. Duis feugiat vehicula metus, accumsan efficitur ante bibendum a. Fusce ultrices justo at leo consectetur faucibus a vitae ante. Etiam eget rutrum quam. Proin pulvinar libero tempor, porta nunc eget, rhoncus nulla. In ac mauris non risus aliquam euismod ac et erat. Vestibulum vitae faucibus ante.<\/p><p>Etiam facilisis, libero ac venenatis dignissim, magna nisl viverra lectus, sit amet iaculis dolor lorem eget urna. Cras ac gravida nunc, nec eleifend sapien. Suspendisse potenti. Vestibulum tincidunt purus quis sollicitudin iaculis. Quisque ligula diam, eleifend eget vulputate quis, dictum nec justo. Maecenas vel gravida neque. Fusce scelerisque velit et leo imperdiet, sit amet elementum arcu congue. Sed non ullamcorper nibh, eget lacinia justo.<\/p>"
+            }
+          },
+          "1491490497166": {
+            "type": "faq",
+            "settings": {
+              "question": "How can I find your international delivery policy?",
+              "answer": "<p>Praesent vitae venenatis dolor. Aenean egestas lacinia risus, id mattis massa interdum fringilla. Sed dictum sem at enim suscipit, eget aliquet tortor finibus. Integer pharetra, velit ut posuere interdum, orci ante feugiat mi, sit amet pulvinar dui mi ut leo. Quisque eu scelerisque risus. Aliquam sollicitudin, velit sed bibendum lobortis, ipsum odio laoreet leo, at consectetur tortor justo semper lectus. Nulla non eros eget urna pulvinar scelerisque in vel lacus. Donec suscipit dolor vitae mauris sagittis condimentum.<\/p><p>Duis feugiat vehicula metus, accumsan efficitur ante bibendum a. Fusce ultrices justo at leo consectetur faucibus a vitae ante. Etiam eget rutrum quam. Proin pulvinar libero tempor, porta nunc eget, rhoncus nulla. In ac mauris non risus aliquam euismod ac et erat. Vestibulum vitae faucibus ante.<\/p>"
+            }
+          },
+          "1491490513412": {
+            "type": "faq",
+            "settings": {
+              "question": "What should I do if my order hasn't been delivered yet?",
+              "answer": "<p>Nam vitae viverra ex. Sed dictum mollis ultricies. Cras lobortis viverra dapibus. Suspendisse ornare metus arcu, sit amet imperdiet sem lacinia eget. Maecenas vitae porttitor quam. Cras lacinia sollicitudin felis, sit amet laoreet leo ornare vestibulum. Ut fermentum pulvinar lorem, vel consequat leo euismod ac. Cras pulvinar sit amet lorem nec egestas. Vivamus gravida eu felis in elementum. In nec pretium neque. Mauris dictum risus ut elit tristique dictum. Etiam tempor leo libero, ac commodo diam bibendum ut. Integer non dapibus diam. Morbi feugiat, mauris ut placerat faucibus, velit urna fermentum eros, venenatis finibus velit lorem vitae nulla.<\/p>"
+            }
+          },
+          "1491490526404": {
+            "type": "faq",
+            "settings": {
+              "question": "What is your international returns policy?",
+              "answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in accumsan dui. Donec imperdiet, nisl non pharetra convallis, nunc sapien laoreet massa, ac elementum arcu neque vitae enim. Praesent convallis leo est, scelerisque tincidunt magna ultricies eu. Ut placerat est a eros faucibus feugiat. Nullam a urna sit amet sem porttitor malesuada a quis nibh. In hac habitasse platea dictumst. Donec sit amet auctor leo. Sed venenatis posuere risus quis dictum. Vivamus ullamcorper orci vitae eros tincidunt, a aliquet lacus dapibus. Sed consectetur, est vel tincidunt imperdiet, justo est dignissim lorem, nec tincidunt lacus lacus ac risus. Cras pretium enim nec vestibulum aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;<\/p><p>Nam vitae viverra ex. Sed dictum mollis ultricies. Cras lobortis viverra dapibus. Suspendisse ornare metus arcu, sit amet imperdiet sem lacinia eget. Maecenas vitae porttitor quam. Cras lacinia sollicitudin felis, sit amet laoreet leo ornare vestibulum. Ut fermentum pulvinar lorem, vel consequat leo euismod ac. Cras pulvinar sit amet lorem nec egestas. Vivamus gravida eu felis in elementum. In nec pretium neque. Mauris dictum risus ut elit tristique dictum. Etiam tempor leo libero, ac commodo diam bibendum ut. Integer non dapibus diam. Morbi feugiat, mauris ut placerat faucibus, velit urna fermentum eros, venenatis finibus velit lorem vitae nulla.<\/p>"
+            }
+          },
+          "1491490541645": {
+            "type": "faq",
+            "settings": {
+              "question": "How can I get a new returns note?",
+              "answer": "<p>Cras lacinia sollicitudin felis, sit amet laoreet leo ornare vestibulum. Ut fermentum pulvinar lorem, vel consequat leo euismod ac. Cras pulvinar sit amet lorem nec egestas. Vivamus gravida eu felis in elementum. In nec pretium neque. Mauris dictum risus ut elit tristique dictum.<\/p><p>Etiam tempor leo libero, ac commodo diam bibendum ut. Integer non dapibus diam. Morbi feugiat, mauris ut placerat faucibus, velit urna fermentum eros, venenatis finibus velit lorem vitae nulla.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1491488453218",
+          "1491488500980",
+          "1491490190139",
+          "1491490244300",
+          "1491490256236",
+          "1491490277072",
+          "1491490334493",
+          "1491490339111",
+          "1491490354191",
+          "1491490358287",
+          "1491490380056",
+          "1491490397433",
+          "1491490414731",
+          "1491490427401",
+          "1491490465347",
+          "1491490468211",
+          "1491490471821",
+          "1491490479347",
+          "1491490497166",
+          "1491490513412",
+          "1491490526404",
+          "1491490541645"
+        ],
+        "settings": {}
+      },
+      "mega-menu": {
+        "type": "mega-menu",
+        "blocks": {
+          "1501220334032": {
+            "type": "menu_item",
+            "settings": {
+              "menu_text": "HOME",
+              "menu_link": "https:\/\/sheridan-buckle.myshopify.com\/",
+              "submenu_width": "230px",
+              "linklist": "",
+              "submenu_bg_color": ""
+            }
+          },
+          "1501224996903": {
+            "type": "menu_item",
+            "settings": {
+              "menu_text": "BUCKLES",
+              "menu_link": "https:\/\/sheridan-buckle.myshopify.com\/collections\/buckles",
+              "submenu_width": "220px",
+              "linklist": "main-menu",
+              "submenu_bg_color": ""
+            }
+          },
+          "1501225235963": {
+            "type": "menu_item",
+            "settings": {
+              "menu_text": "CROWNS",
+              "menu_link": "https:\/\/sheridan-buckle.myshopify.com\/collections\/crowns",
+              "submenu_width": "220px",
+              "linklist": "crowns",
+              "submenu_bg_color": ""
+            }
+          },
+          "1501225259805": {
+            "type": "menu_item",
+            "settings": {
+              "menu_text": "TROPHY CUPS",
+              "menu_link": "https:\/\/sheridan-buckle.myshopify.com\/collections\/trophy-cups",
+              "submenu_width": "250px",
+              "linklist": "trophy-cups",
+              "submenu_bg_color": ""
+            }
+          },
+          "1501225272704": {
+            "type": "menu_item",
+            "settings": {
+              "menu_text": "TROPHY KNIFES",
+              "menu_link": "https:\/\/sheridan-buckle.myshopify.com\/collections\/trophy-knifes",
+              "submenu_width": "250px",
+              "linklist": "trophy-knifes",
+              "submenu_bg_color": ""
+            }
+          },
+          "1583105037734": {
+            "type": "menu_item",
+            "settings": {
+              "menu_text": "About Us",
+              "menu_link": "https:\/\/sheridan-buckle.myshopify.com\/pages\/about-us",
+              "submenu_width": "250px",
+              "linklist": "",
+              "submenu_bg_color": ""
+            }
+          },
+          "1582661473136": {
+            "type": "menu_item",
+            "settings": {
+              "menu_text": "CONTACT US",
+              "menu_link": "https:\/\/sheridan-buckle.myshopify.com\/pages\/contact-us",
+              "submenu_width": "250px",
+              "linklist": "",
+              "submenu_bg_color": ""
+            }
+          }
+        },
+        "block_order": [
+          "1501220334032",
+          "1501224996903",
+          "1501225235963",
+          "1501225259805",
+          "1501225272704",
+          "1583105037734",
+          "1582661473136"
+        ],
+        "settings": {
+          "megamenu_enable": true
+        }
+      },
+      "1502199658213": {
+        "type": "index-slideshow",
+        "disabled": true,
+        "blocks": {
+          "1502199658213-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/SSE_312_BLACK_CHROME.jpg",
+              "alignment": "top",
+              "alignment_text": "bottom",
+              "title": "Black Chrome",
+              "title_shadow": "",
+              "title_size": "small",
+              "subheading": "",
+              "subheading_shadow": "",
+              "subheading_size": "medium",
+              "link": "shopify:\/\/collections\/black-chrome",
+              "background": "#ffffff",
+              "color": "#000000"
+            }
+          },
+          "1583174314341": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "alignment": "top",
+              "alignment_text": "bottom",
+              "title": "Image slide",
+              "title_shadow": "",
+              "title_size": "large",
+              "subheading": "Tell your brand's story through video and images",
+              "subheading_shadow": "",
+              "subheading_size": "small",
+              "link": "",
+              "background": "#ffffff",
+              "color": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "1502199658213-0",
+          "1583174314341"
+        ],
+        "settings": {
+          "autoplay": false,
+          "autoplay_speed": "10000",
+          "slideshow_height": "small",
+          "text_font": "genera_font",
+          "text_style": "style_2",
+          "slideshow_spinner": "3"
+        }
+      },
+      "1502199755411": {
+        "type": "index-gap",
+        "disabled": true,
+        "settings": {
+          "height": "80"
+        }
+      },
+      "1502199767113": {
+        "type": "index-collections",
+        "blocks": {
+          "1502199767113-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "buckles"
+            }
+          },
+          "1502199811946": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "trophy-knifes"
+            }
+          },
+          "1502199767113-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "crowns"
+            }
+          },
+          "1502199767113-2": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "trophy-cups"
+            }
+          }
+        },
+        "block_order": [
+          "1502199767113-0",
+          "1502199811946",
+          "1502199767113-1",
+          "1502199767113-2"
+        ],
+        "settings": {
+          "heading": "PRODUCTS",
+          "columns": 4,
+          "hover": "zoom_hover",
+          "layout": "slider",
+          "padding": "10%"
+        }
+      },
+      "1502199846027": {
+        "type": "index-gap",
+        "settings": {
+          "height": "40"
+        }
+      },
+      "1502199857876": {
+        "type": "index-products",
+        "settings": {
+          "heading": "",
+          "collection": "crushed-turquoise",
+          "limit": 3,
+          "columns": 3,
+          "layout": "slider",
+          "background": "#ffffff",
+          "sidebar": "right",
+          "sidebar_height": "300",
+          "sidebar_image": "shopify:\/\/shop_images\/SSE_314_CRUSHED_TURQUOISE_STONE.jpg"
+        }
+      },
+      "1502200017932": {
+        "type": "index-featured-products",
+        "blocks": {
+          "1502200017932-0": {
+            "type": "featured_product",
+            "settings": {
+              "product": "box-buckles",
+              "image": ""
+            }
+          },
+          "1502200017932-1": {
+            "type": "featured_product",
+            "settings": {
+              "product": "byrd-knive",
+              "image": ""
+            }
+          },
+          "1502200017932-2": {
+            "type": "featured_product",
+            "settings": {
+              "product": "crowns",
+              "image": ""
+            }
+          },
+          "1582662000140": {
+            "type": "featured_product",
+            "settings": {
+              "product": "exclusive-buckles",
+              "image": ""
+            }
+          },
+          "1582662037721": {
+            "type": "featured_product",
+            "settings": {
+              "product": "metallic-buckles",
+              "image": ""
+            }
+          },
+          "1582662048689": {
+            "type": "featured_product",
+            "settings": {
+              "product": "metallic-youth-buckles",
+              "image": ""
+            }
+          },
+          "1582662056927": {
+            "type": "featured_product",
+            "settings": {
+              "product": "pee-wee-buckles",
+              "image": ""
+            }
+          },
+          "1582662064467": {
+            "type": "featured_product",
+            "settings": {
+              "product": "spyderco-knive",
+              "image": ""
+            }
+          },
+          "1582662072824": {
+            "type": "featured_product",
+            "settings": {
+              "product": "standard-buckles",
+              "image": ""
+            }
+          },
+          "1582662084721": {
+            "type": "featured_product",
+            "settings": {
+              "product": "standard-buckles",
+              "image": ""
+            }
+          },
+          "1582662094546": {
+            "type": "featured_product",
+            "settings": {
+              "product": "traditional-buckles",
+              "image": ""
+            }
+          },
+          "1582662103450": {
+            "type": "featured_product",
+            "settings": {
+              "product": "trophy-cups",
+              "image": ""
+            }
+          },
+          "1582662112710": {
+            "type": "featured_product",
+            "settings": {
+              "product": "youth-buckles",
+              "image": ""
+            }
+          }
+        },
+        "block_order": [
+          "1502200017932-0",
+          "1502200017932-1",
+          "1502200017932-2",
+          "1582662000140",
+          "1582662037721",
+          "1582662048689",
+          "1582662056927",
+          "1582662064467",
+          "1582662072824",
+          "1582662084721",
+          "1582662094546",
+          "1582662103450",
+          "1582662112710"
+        ],
+        "settings": {
+          "heading": "FEATURED PRODUCTS",
+          "columns": 4,
+          "layout": "slider",
+          "style": "simple",
+          "background": "#f3f3f3"
+        }
+      },
+      "1502200138223": {
+        "type": "index-products",
+        "disabled": true,
+        "settings": {
+          "heading": "BUCKLES",
+          "collection": "buckles",
+          "limit": 4,
+          "columns": 4,
+          "layout": "listing",
+          "background": "#ffffff",
+          "sidebar": "",
+          "sidebar_height": "200",
+          "sidebar_image": ""
+        }
+      },
+      "1502200198914": {
+        "type": "index-gap",
+        "settings": {
+          "height": "40"
+        }
+      },
+      "1502200210316": {
+        "type": "index-products",
+        "disabled": true,
+        "settings": {
+          "heading": "CROWNS",
+          "collection": "crowns",
+          "limit": 6,
+          "columns": 5,
+          "layout": "slider",
+          "background": "#f3f3f3",
+          "sidebar": "",
+          "sidebar_height": "",
+          "sidebar_image": ""
+        }
+      },
+      "1502200245414": {
+        "type": "index-blog",
+        "disabled": true,
+        "settings": {
+          "heading": "Latest News",
+          "blog": "news",
+          "limit": 4,
+          "layout": "slider"
+        }
+      },
+      "1502180476434": {
+        "type": "index-gap-header",
+        "settings": {}
+      },
+      "1513229675516": {
+        "type": "ra-revslider",
+        "disabled": true,
+        "settings": {
+          "shortcode": "[revslider-243]"
+        }
+      },
+      "1582661505954": {
+        "type": "index-slideshow",
+        "blocks": {
+          "1582661505954-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner3.jpg",
+              "alignment": "center",
+              "alignment_text": "bottom",
+              "title": "",
+              "title_shadow": "",
+              "title_size": "large",
+              "subheading": "",
+              "subheading_shadow": "",
+              "subheading_size": "small",
+              "link": "shopify:\/\/collections\/black-chrome",
+              "background": "#ffffff",
+              "color": "#ffffff"
+            }
+          },
+          "1582661505954-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner4_8890239e-c3fd-4081-b845-0d45ee9c3f14.jpg",
+              "alignment": "top",
+              "alignment_text": "bottom",
+              "title": "",
+              "title_shadow": "",
+              "title_size": "large",
+              "subheading": "",
+              "subheading_shadow": "",
+              "subheading_size": "small",
+              "link": "shopify:\/\/collections\/box-buckles-95",
+              "background": "#ffffff",
+              "color": "#ffffff"
+            }
+          },
+          "1582661549497": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner2.jpg",
+              "alignment": "top",
+              "alignment_text": "bottom",
+              "title": "",
+              "title_shadow": "",
+              "title_size": "large",
+              "subheading": "",
+              "subheading_shadow": "",
+              "subheading_size": "small",
+              "link": "shopify:\/\/collections\/crushed-stones",
+              "background": "#ffffff",
+              "color": "#ffffff"
+            }
+          },
+          "1582992494884": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner1_49ad680d-27e0-4b6e-a282-155517f155f1.jpg",
+              "alignment": "top",
+              "alignment_text": "bottom",
+              "title": "",
+              "title_shadow": "",
+              "title_size": "large",
+              "subheading": "Tell your brand's story through video and images",
+              "subheading_shadow": "",
+              "subheading_size": "small",
+              "link": "shopify:\/\/collections\/metallic-buckles-120",
+              "background": "#ffffff",
+              "color": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "1582661505954-0",
+          "1582661505954-1",
+          "1582661549497",
+          "1582992494884"
+        ],
+        "settings": {
+          "autoplay": true,
+          "autoplay_speed": "5000",
+          "slideshow_height": "auto",
+          "text_font": "genera_font",
+          "text_style": "style_2",
+          "slideshow_spinner": "3"
+        }
+      },
+      "1582662237385": {
+        "type": "index-products",
+        "disabled": true,
+        "settings": {
+          "heading": "Trophy Cups",
+          "collection": "trophy-cups",
+          "limit": 20,
+          "columns": 4,
+          "layout": "listing",
+          "background": "#ffffff",
+          "sidebar": "",
+          "sidebar_height": "",
+          "sidebar_image": ""
+        }
+      },
+      "1582662472339": {
+        "type": "index-products",
+        "disabled": true,
+        "settings": {
+          "heading": "Trophy Knifes",
+          "collection": "trophy-knifes",
+          "limit": 8,
+          "columns": 4,
+          "layout": "listing",
+          "background": "#f3f3f3",
+          "sidebar": "",
+          "sidebar_height": "",
+          "sidebar_image": ""
+        }
+      },
+      "1582666015890": {
+        "type": "index-slideshow",
+        "disabled": true,
+        "blocks": {
+          "1582666015890-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Black-Chrome-min.jpg",
+              "alignment": "top",
+              "alignment_text": "bottom",
+              "title": "",
+              "title_shadow": "",
+              "title_size": "large",
+              "subheading": "",
+              "subheading_shadow": "",
+              "subheading_size": "small",
+              "link": "",
+              "background": "#ffffff",
+              "color": "#ffffff"
+            }
+          },
+          "1582666015890-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Box-Buckles-min.jpg",
+              "alignment": "top",
+              "alignment_text": "bottom",
+              "title": "",
+              "title_shadow": "",
+              "title_size": "large",
+              "subheading": "",
+              "subheading_shadow": "",
+              "subheading_size": "small",
+              "link": "",
+              "background": "#ffffff",
+              "color": "#ffffff"
+            }
+          },
+          "1582666025491": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Crushed-Stones-min.jpg",
+              "alignment": "top",
+              "alignment_text": "bottom",
+              "title": "",
+              "title_shadow": "",
+              "title_size": "large",
+              "subheading": "",
+              "subheading_shadow": "",
+              "subheading_size": "small",
+              "link": "",
+              "background": "#ffffff",
+              "color": "#ffffff"
+            }
+          },
+          "1582666029977": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Metallic-Buckles-min.jpg",
+              "alignment": "top",
+              "alignment_text": "bottom",
+              "title": "",
+              "title_shadow": "",
+              "title_size": "large",
+              "subheading": "",
+              "subheading_shadow": "",
+              "subheading_size": "small",
+              "link": "",
+              "background": "#ffffff",
+              "color": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "1582666015890-0",
+          "1582666015890-1",
+          "1582666025491",
+          "1582666029977"
+        ],
+        "settings": {
+          "autoplay": true,
+          "autoplay_speed": "5000",
+          "slideshow_height": "auto",
+          "text_font": "genera_font",
+          "text_style": "style_1",
+          "slideshow_spinner": "3"
+        }
+      },
+      "1582666219854": {
+        "type": "index-grid",
+        "disabled": true,
+        "blocks": {
+          "1582666219854-0": {
+            "type": "item",
+            "settings": {
+              "thumbnail": "shopify:\/\/shop_images\/vintage_copy.png",
+              "image": "shopify:\/\/shop_images\/Vintage-Line-min.jpg",
+              "heading": "Vintage line",
+              "caption": "",
+              "url": "shopify:\/\/collections\/vintage",
+              "cta": "VIEW PRODUCTS"
+            }
+          },
+          "1582666219854-1": {
+            "type": "item",
+            "settings": {
+              "thumbnail": "shopify:\/\/shop_images\/SSE_353_SOUTHWEST_copy.png",
+              "image": "shopify:\/\/shop_images\/Southwest-Line-min.jpg",
+              "heading": "Southwest Line",
+              "caption": "",
+              "url": "shopify:\/\/collections\/southwest-line",
+              "cta": "VIEW PRODUCTS"
+            }
+          },
+          "1582666219854-2": {
+            "type": "item",
+            "settings": {
+              "thumbnail": "shopify:\/\/shop_images\/SSE_281_SMOKED_STEEL_copy.png",
+              "image": "shopify:\/\/shop_images\/Smoked-Steel-min.jpg",
+              "heading": "Smoked Steel",
+              "caption": "",
+              "url": "shopify:\/\/collections\/smoked-steel",
+              "cta": "VIEW PRODUCTS"
+            }
+          },
+          "1582666219854-3": {
+            "type": "item",
+            "settings": {
+              "thumbnail": "shopify:\/\/shop_images\/SSE_322_ROSE_GOLD_copy.png",
+              "image": "shopify:\/\/shop_images\/Rose-Gold-min.jpg",
+              "heading": "Rose Gold",
+              "caption": "",
+              "url": "\/",
+              "cta": "VIEW PRODUCTS"
+            }
+          },
+          "1582666219854-4": {
+            "type": "item",
+            "settings": {
+              "thumbnail": "shopify:\/\/shop_images\/SSM_135_copy_1718bb24-4562-457a-8151-c2c0e2e1c29f.png",
+              "image": "shopify:\/\/shop_images\/Metallic-Buckles-min.jpg",
+              "heading": "Metallic",
+              "caption": "",
+              "url": "\/",
+              "cta": "VIEW PRODUCTS"
+            }
+          },
+          "1582666219854-5": {
+            "type": "item",
+            "settings": {
+              "thumbnail": "shopify:\/\/shop_images\/SSE_299_CRUSHED_BLUE_STONE_copy.png",
+              "image": "shopify:\/\/shop_images\/Crushed-Stones-min.jpg",
+              "heading": "Crushed Stone",
+              "caption": "",
+              "url": "\/",
+              "cta": "VIEW PRODUCTS"
+            }
+          },
+          "1582666219854-6": {
+            "type": "item",
+            "settings": {
+              "thumbnail": "shopify:\/\/shop_images\/SSBOX_140_copy_ffcad541-911f-4ffa-806c-4509038e9f9d.png",
+              "image": "shopify:\/\/shop_images\/Box-Buckles-min.jpg",
+              "heading": "Box Buckle",
+              "caption": "",
+              "url": "\/",
+              "cta": "VIEW PRODUCTS"
+            }
+          },
+          "1582666219854-7": {
+            "type": "item",
+            "settings": {
+              "thumbnail": "shopify:\/\/shop_images\/SSE_312_BLACK_CHROME_copy.png",
+              "image": "shopify:\/\/shop_images\/Black-Chrome-min.jpg",
+              "heading": "Black Chrome",
+              "caption": "",
+              "url": "",
+              "cta": "VIEW PRODUCTS"
+            }
+          }
+        },
+        "block_order": [
+          "1582666219854-0",
+          "1582666219854-1",
+          "1582666219854-2",
+          "1582666219854-3",
+          "1582666219854-4",
+          "1582666219854-5",
+          "1582666219854-6",
+          "1582666219854-7"
+        ],
+        "settings": {
+          "heading": "BUCKLE STYLES",
+          "image_layout": "1"
+        }
+      },
+      "product-variants-mobile": {
+        "type": "product-variants-mobile",
+        "settings": {}
+      },
+      "1583333009321": {
+        "type": "index-html",
+        "settings": {
+          "layout": "container",
+          "html": "<div id=\"yoyo1\">\n<center>\n<h1>BUCKLE STYLES<\/h1>\n<table>\n\t\n<tbody>\n<tr>\n\t<td><a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/vintage\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0326\/5635\/9557\/files\/vintage_copy.png?v=1583258822\" width=\"100%\" height=\"300px\"> <\/a><\/td>\n\t<td><a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/southwest-line\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0326\/5635\/9557\/files\/SSE_353_SOUTHWEST_copy.png?v=1583258940\" width=\"100%\" height=\"300px\"><\/a><\/td>\n\t<td><a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/smoked-steel\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0326\/5635\/9557\/files\/SSE_281_SMOKED_STEEL_copy.png?v=1583259051\" width=\"100%\" height=\"300px\"><\/a><\/td>\n\t<td><a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/rose-gold\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0326\/5635\/9557\/files\/SSE_322_ROSE_GOLD_copy.png?v=1583259159\" width=\"100%\" height=\"300px\"><\/a><\/td>\n\n\t<\/tr>\n<tr>\n\t<td><a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/metallic-buckles-120\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0326\/5635\/9557\/files\/SSM_135_copy_1718bb24-4562-457a-8151-c2c0e2e1c29f.png?v=1583260064\" width=\"100%\" height=\"300px\"><\/a><\/td>\n\t<td><a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/crushed-stones\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0326\/5635\/9557\/files\/SSE_299_CRUSHED_BLUE_STONE_copy.png?v=1583259471\" width=\"100%\" height=\"300px\"><\/a><\/td>\n\t<td><a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/black-chrome\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0326\/5635\/9557\/files\/SSE_312_BLACK_CHROME_copy.png?v=1583259683\" width=\"100%\" height=\"300px\"><\/a><\/td>\n\t<td><a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/box-buckles-95\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0326\/5635\/9557\/files\/SSBOX_140_copy_ffcad541-911f-4ffa-806c-4509038e9f9d.png?v=1583259995\" width=\"100%\" height=\"300px\"><\/a><\/td>\n\t\n\t<\/tr>\n<\/tbody>\n<\/table>\n<\/center>\n<\/div>"
+        }
+      },
+      "1583425857827": {
+        "type": "index-html",
+        "settings": {
+          "layout": "container",
+          "html": "<div id=\"yoyo2\">\n<center>\n<h1>BUCKLE STYLES<\/h1>\n<table>\n\t\n<tbody>\n<tr>\n\t<td><a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/vintage\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0326\/5635\/9557\/files\/vintage_copy.png?v=1583258822\" width=\"100%\" height=\"300px\"> <\/a><\/td>\n\t<td><a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/southwest-line\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0326\/5635\/9557\/files\/SSE_353_SOUTHWEST_copy.png?v=1583258940\" width=\"100%\" height=\"300px\"><\/a><\/td> <\/tr>\n\t<tr>\n<td><a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/smoked-steel\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0326\/5635\/9557\/files\/SSE_281_SMOKED_STEEL_copy.png?v=1583259051\" width=\"100%\" height=\"300px\"><\/a><\/td>\n\t<td><a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/rose-gold\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0326\/5635\/9557\/files\/SSE_322_ROSE_GOLD_copy.png?v=1583259159\" width=\"100%\" height=\"300px\"><\/a><\/td> <\/tr>\n\n<tr>\n\t<td><a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/metallic-buckles-120\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0326\/5635\/9557\/files\/SSM_135_copy_1718bb24-4562-457a-8151-c2c0e2e1c29f.png?v=1583260064\" width=\"100%\" height=\"300px\"><\/a><\/td>\n\t<td><a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/crushed-stones\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0326\/5635\/9557\/files\/SSE_299_CRUSHED_BLUE_STONE_copy.png?v=1583259471\" width=\"100%\" height=\"300px\"><\/a><\/td> <\/tr> <tr>\n\t<td><a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/black-chrome\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0326\/5635\/9557\/files\/SSE_312_BLACK_CHROME_copy.png?v=1583259683\" width=\"100%\" height=\"300px\"><\/a><\/td>\n\t<td><a href=\"https:\/\/sheridan-buckle.myshopify.com\/collections\/box-buckles-95\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0326\/5635\/9557\/files\/SSBOX_140_copy_ffcad541-911f-4ffa-806c-4509038e9f9d.png?v=1583259995\" width=\"100%\" height=\"300px\"><\/a><\/td>\n\t\n\t<\/tr>\n<\/tbody>\n<\/table>\n<\/center>\n<\/div>"
+        }
+      }
+    },
+    "content_for_index": [
+      "1502180476434",
+      "1513229675516",
+      "1582661505954",
+      "1582666015890",
+      "1502199658213",
+      "1502199767113",
+      "1502199755411",
+      "1582666219854",
+      "1583333009321",
+      "1583425857827",
+      "1502199846027",
+      "1502199857876",
+      "1502200198914",
+      "1502200017932",
+      "1502200138223",
+      "1502200210316",
+      "1582662237385",
+      "1502200245414",
+      "1582662472339"
+    ]
+  }
+}
